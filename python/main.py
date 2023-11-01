@@ -17,16 +17,25 @@
 # else:
 #     print("deu ruim teu IF")
 # ------------------------------------------------------------------------
-print('MENU: \n1 = Escreve Guilherme\n2 = Escreve João\n3 = Escreve Maria\n')
+# print('MENU: \n1 = Escreve Guilherme\n2 = Escreve João\n3 = Escreve Maria\n')
 
-opcao = input("Escolha uma opção: ")
+# opcao = input("Escolha uma opção: ")
 
-if opcao == '1':
-    print('Você escolheu: Guilherme\n')
-elif opcao == '2':
-    print('Você escolheu: João\n')
-elif opcao == '3':
-    print('Você escolheu: Maria\n')
+# if opcao == '1':
+#     print('Você escolheu: Guilherme\n')
+# elif opcao == '2':
+#     print('Você escolheu: João\n')
+# elif opcao == '3':
+#     print('Você escolheu: Maria\n')
+# else:
+#     print('Opção inválida!\n')
+# ------------------------------------------------------------------------
+idade = input("Digite sua idade: ")
+peso = input("Digite seu peso: ")
+altura = input("Digite sua altura em centímetros: ")
+
+if int(idade) >= 18 and int(peso) >= 60 and int(altura) >= 170:
+    print("Pode entrar no exército!")
 else:
-    print('Opção inválida!\n')
+    print("Não pode entrar no exército!")
 # ------------------------------------------------------------------------
