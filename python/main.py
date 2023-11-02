@@ -30,12 +30,21 @@
 # else:
 #     print('Opção inválida!\n')
 # ------------------------------------------------------------------------
-idade = input("Digite sua idade: ")
-peso = input("Digite seu peso: ")
-altura = input("Digite sua altura em centímetros: ")
+# idade = input("Digite sua idade: ")
+# peso = input("Digite seu peso: ")
+# altura = input("Digite sua altura em centímetros: ")
 
-if int(idade) >= 18 and int(peso) >= 60 and int(altura) >= 170:
-    print("Pode entrar no exército!")
-else:
-    print("Não pode entrar no exército!")
+# if int(idade) >= 18 and int(peso) >= 60 and int(altura) >= 170:
+#     print("Pode entrar no exército!")
+# else:
+#     print("Não pode entrar no exército!")
 # ------------------------------------------------------------------------
+lista_nomes = ['João', 'Maria', 'Guilherme', 'Diego']
+
+lista_nomes.append('ALEX')
+lista_nomes.remove('Maria')
+lista_nomes.insert(1, 'Helena')
+
+# contador_Alex = lista_nomes.count('ALEX')
+
+print(lista_nomes.lower())
