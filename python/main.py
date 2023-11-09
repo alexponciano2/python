@@ -80,12 +80,18 @@
 # ------------------------------------------------------------------------
 # EXERCÍCIO:
 
-quantidade_de_pessoas = int(input('Quantas pessoas virão à festa?: '))
+# quantidade_de_pessoas = int(input('Quantas pessoas virão à festa?: '))
 
-lista_de_convidados = []
+# lista_de_convidados = []
 
-for i in range(quantidade_de_pessoas):
-    nome = input('Qual o nome do convidado?: ')
-    lista_de_convidados.append(nome)
+# for i in range(quantidade_de_pessoas):
+#     nome = input('Qual o nome do convidado?: ')
+#     lista_de_convidados.append(nome)
    
-print('Os convidados para a festa são: ', lista_de_convidados)
+# print('Os convidados para a festa são: ', lista_de_convidados)
+# ------------------------------------------------------------------------
+# ESTRUTURA DE DADOS
+minha_lista =    ['Gui', 'Joao']                       # List
+minha_tupla =    ('Gui', 'Joao')                       # Não é mutável, a não ser que seja ela toda
+meu_dicionario = {'nome': 'Guilherme', 'idade': 27}    # Key + Value
+meu_conjunto =   {'Gui', 'Joao'}                       # Não tem Key, Não tem itens repetidos, Não tem índice
