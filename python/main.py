@@ -91,7 +91,35 @@
 # print('Os convidados para a festa são: ', lista_de_convidados)
 # ------------------------------------------------------------------------
 # ESTRUTURA DE DADOS
-minha_lista =    ['Gui', 'Joao']                       # List
-minha_tupla =    ('Gui', 'Joao')                       # Não é mutável, a não ser que seja ela toda
-meu_dicionario = {'nome': 'Guilherme', 'idade': 27}    # Key + Value
-meu_conjunto =   {'Gui', 'Joao'}                       # Não tem Key, Não tem itens repetidos, Não tem índice
+# minha_lista =    ['Gui', 'Joao']                       # List
+# minha_tupla =    ('Gui', 'Joao')                       # Não é mutável, a não ser que seja ela toda
+# meu_dicionario = {'nome': 'Guilherme', 'idade': 27}    # Key + Value
+# meu_conjunto =   {'Gui', 'Joao'}                       # Não tem Key, Não tem itens repetidos, Não tem índice
+# ------------------------------------------------------------------------
+# def soma(numero1, numero2):
+#     resposta = numero1 + numero2
+#     return resposta
+# retorno = soma(75, 1289)
+# print(retorno)
+# ------------------------------------------------------------------------
+# def tem_sete_itens(argumento):
+#     if(len(argumento)) == 7:
+#         return True
+#     else:
+#         return False
+# if(tem_sete_itens('1234567')):
+#     print('Realmente tem 7 itens')
+# else:
+#     print('Não tem 7 itens nao, meu fih')
+# ------------------------------------------------------------------------
+argumento = [7, 13, 24, 33, 45, 53, 66, 71, 89, 93, 100]
+# def maior_numero_na_colecao(argumento):
+#     for i in range(argumento):
+#         if argumento[0] < argumento[1]:
+#             argumento[0].remove
+#         else:
+#             argumento[1].remove
+resultado = max(argumento)
+print(resultado)
+# ------------------------------------------------------------------------
+
